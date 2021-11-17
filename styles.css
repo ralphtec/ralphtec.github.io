@@ -285,7 +285,14 @@ body{
 	text-align: center;
 	border-radius: 5px;
 	font-size: 20px;
+        display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	font-family: sans-serif;
 }
 a:hover {
 	background: #00729D;
 }
+
