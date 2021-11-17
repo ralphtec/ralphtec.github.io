@@ -274,10 +274,18 @@ body{
     .name{
         font-size: 1.5rem;
     }
+}a {
+	display: block;
+	background: #00A9D4;
+	color: #fff;
+	padding: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	width: 320px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 20px;
 }
-button{
-    border-style: double;
-    font-size: large;
-    text-align: center;
-
+a:hover {
+	background: #00729D;
 }
